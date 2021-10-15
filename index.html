@@ -16,15 +16,15 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#aboutme">About</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link active" href="#aboutme">About</a>
+              <a class="nav-link active" href="#projects">Projects</a>
+              <a class="nav-link active" href="#contact">Contact Me</a>
             </div>
           </div>
         </div>
     </nav>
-
-    <div class="accordion" id="accordionExample">
+   
+    <div class="accordion" id="aboutme" style="padding-bottom: 60px; margin: 60px">
         <div class="accordion-item">
           <h2 class="accordion-header" text="About Me" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -33,7 +33,7 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
             <div class="accordion-body">
-              <strong>I received my diploma from Richard Montgomery High School</strong> I will receive my bachelor's degree in applied computer science from Dominincan University in May 2022.
+              <strong>I received my diploma from Richard Montgomery High School</strong> I will receive my bachelor's degree in applied computer science from Dominincan University in May 2022. My interests include cybersecurity and server side architecture 
             </div>
           </div>
         </div>
@@ -57,84 +57,42 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Interests
+              Links
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
             <div class="accordion-body">
-              <strong>My interests are cybersecurity and server side architecture</strong>
+                <button type="button" class="btn btn-primary"> My Github<a href="https://github.com/bangalia">My Github</a></button>
+                <button type="button" class="btn btn-primary">My Linkedin<a href="https://www.linkedin.com/in/anita-bangali-814107b4/">My Linkedin</a></button>
             </div>
           </div>
         </div>
     </div>
-
-
-    <div id="projects">
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                 Pong
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-                <div class="accordion-body">
-                  <strong> A color changing project build with Nodejs and Socketio</strong><href=#"https://github.com/bangalia/Pong>"
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  GIF Search
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
-                <div class="accordion-body">
-                  <strong></strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-4" id="projects">
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="projects" style="padding-bottom: 60px; margin: 10px;">
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/Pong.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Pong</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><a href="https://github.com/bangalia/Pong">Code</a></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/GIF.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">GIF Search</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><a href="https://github.com/bangalia/tenor-search">Code</a></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/Note Keeper.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Note Taker</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Note Keeper</h5>
+              <p class="card-text"><a href="https://github.com/bangalia/Note-Keeper">Code</a></p>
             </div>
           </div>
         </div>
@@ -142,29 +100,22 @@
 
     <div id="contact">
         <h2>Contact Me</h2>
-        <form method="post" name="contact_form"
-         action="contact-form-handler.php">
-            Your Name:
+        <form method="POST" name="contactform" action="contact-form-handler.php"> 
+            <p>
+            <label for='name'>Your Name:</label> <br>
             <input type="text" name="name">
-
-            Email Address:
-            <input type="text" name="email">
-
-            Message:
+            </p>
+            <p>
+            <label for='email'>Email Address:</label> <br>
+            <input type="text" name="email"> <br>
+            </p>
+            <p>
+            <label for='message'>Message:</label> <br>
             <textarea name="message"></textarea>
-
-            <input type="submit" value="Submit">
+            </p>
+            <input type="submit" value="Submit"><br>
         </form>	       
     </div>
-    <script language="JavaScript">
-        var frmvalidator  = new Validator("contactform");
-        frmvalidator.addValidation("name","req","Please provide your name");
-        frmvalidator.addValidation("email","req","Please provide your email");
-        frmvalidator.addValidation("email","email",
-          "Please enter a valid email address");
-    </script>
-
-
     <footer>
         <p>Copyright &copy; 2021 Anita Bangali</p>
     </footer>
